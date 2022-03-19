@@ -5,3 +5,5 @@ def index(request):
    return HttpResponse("<h2>hii</h2>")
 def login(request):
     return render(request,'index.html')
+def test(request):
+   return HttpResponse("test")
